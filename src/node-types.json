@@ -1,0 +1,133 @@
+[
+  {
+    "type": "heredoc_redirect",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "heredoc_body",
+          "named": true
+        },
+        {
+          "type": "heredoc_marker",
+          "named": true
+        },
+        {
+          "type": "heredoc_operator",
+          "named": true
+        },
+        {
+          "type": "heredoc_quote",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "root": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": false,
+      "types": [
+        {
+          "type": "comment",
+          "named": true
+        },
+        {
+          "type": "delimiter",
+          "named": true
+        },
+        {
+          "type": "heredoc_redirect",
+          "named": true
+        },
+        {
+          "type": "keyword",
+          "named": true
+        },
+        {
+          "type": "operator",
+          "named": true
+        },
+        {
+          "type": "quoted_string",
+          "named": true
+        },
+        {
+          "type": "redirect",
+          "named": true
+        },
+        {
+          "type": "terminator",
+          "named": true
+        },
+        {
+          "type": "variable",
+          "named": true
+        },
+        {
+          "type": "word",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "comment",
+    "named": true
+  },
+  {
+    "type": "delimiter",
+    "named": true
+  },
+  {
+    "type": "heredoc_body",
+    "named": true
+  },
+  {
+    "type": "heredoc_marker",
+    "named": true
+  },
+  {
+    "type": "heredoc_operator",
+    "named": true
+  },
+  {
+    "type": "heredoc_quote",
+    "named": true
+  },
+  {
+    "type": "keyword",
+    "named": true
+  },
+  {
+    "type": "operator",
+    "named": true
+  },
+  {
+    "type": "quoted_string",
+    "named": true
+  },
+  {
+    "type": "redirect",
+    "named": true
+  },
+  {
+    "type": "terminator",
+    "named": true
+  },
+  {
+    "type": "variable",
+    "named": true
+  },
+  {
+    "type": "word",
+    "named": true
+  }
+]

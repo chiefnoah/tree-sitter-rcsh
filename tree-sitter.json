@@ -1,0 +1,34 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "rcsh",
+      "camelcase": "Rcsh",
+      "title": "Plan 9 rc shell",
+      "scope": "source.rcsh",
+      "file-types": ["rcsh"],
+      "injection-regex": "^rcsh$",
+      "highlights": "queries/rcsh/highlights.scm",
+      "class-name": "TreeSitterRcsh"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.1",
+    "license": "MIT",
+    "description": "Tree-sitter grammar for the Plan 9 rc shell",
+    "authors": [
+      {
+        "name": "Noah"
+      }
+    ]
+  },
+  "bindings": {
+    "c": true,
+    "go": false,
+    "node": true,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": false
+  }
+}

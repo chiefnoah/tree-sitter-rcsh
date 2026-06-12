@@ -1,0 +1,15 @@
+{
+  "name": "tree-sitter-rcsh",
+  "version": "0.0.1",
+  "description": "Tree-sitter grammar for the Plan 9 rc shell",
+  "main": "grammar.js",
+  "license": "MIT",
+  "tree-sitter": [
+    {
+      "scope": "source.rcsh",
+      "file-types": [
+        "rcsh"
+      ]
+    }
+  ]
+}

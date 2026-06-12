@@ -1,0 +1,11 @@
+(keyword) @keyword
+(comment) @comment
+(quoted_string) @string
+(heredoc_marker) @label
+(heredoc_operator) @operator
+(redirect) @operator
+(operator) @operator
+(variable) @variable
+(delimiter) @punctuation.bracket
+(terminator) @punctuation.delimiter
+(word) @string.special.symbol
